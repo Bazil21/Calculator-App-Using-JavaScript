@@ -76,4 +76,5 @@ input[type="text"]:focus{
     text-align: center;
     letter-spacing: 5px;
     padding-bottom: 20px;
+    text-transform: uppercase;
 }
