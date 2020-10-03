@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+.Header{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: #536ef3;
+    box-shadow: inset 5px 5px 8px #3d50b1, 
+            inset -5px -5px 8px #698cff;
+            margin: auto;
+            margin-top: 10px;
+}
+#result{
+    width: 100%;
+    margin-top: 10px;
+}
+input[type="text"]{
+    border-radius: 10px;
+    background: rgb(83,110,243);
+    background: linear-gradient(0deg, rgb(45, 75, 221) 4%, rgb(35, 85, 192) 100%);
+    border: none;
+            height: 45px;
+            padding-left: 20px;
+}
+input[type="text"]:focus{
+    outline: none;
+    border: none;
+}
+#groupbtn{
+    text-align: center;
+}
+#button{
+    width:10%;
+    margin: 15px;
+    position: relative;
+    background: #536ef3;;
+    margin-bottom: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    border-radius: 53px;
+    background: linear-gradient(145deg, #5976ff, #4b63db);
+    box-shadow:  5px 5px 10px #212c61, 
+             -5px -5px 10px #85b0ff;
+             border: none;
+             font-size: 25px;
+    }
+        #button:hover {
+          opacity: 0.8;
+          background: #536ef3;
+    box-shadow: inset 5px 5px 8px #3d50b1, 
+            inset -5px -5px 8px #698cff;
+            width: 11%;
+            transition: all 0.2s linear;
+        }
+        #button:focus {
+            outline: none;
+            opacity: 1;
+            box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.2),
+            inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+        }
+       
+    .line{
+            width: 50%;
+            margin: auto;
+            border: 1px solid #082097;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+#footer{
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+}

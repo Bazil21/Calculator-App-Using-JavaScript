@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator-App-using-JavaScript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="./Favicon/icons8-calculator-96.png" type="image/gif">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
+	
+    
+</head>
+<body style="background-color: #536ef3;">
+      
+    <div class="container"  data-aos="zoom-out-down" data-aos-easing="linear"  data-aos-duration="1000">
+        <h1 class=" Header">Calculator</h1>
+        <div class="row mx-auto">
+        <div class="col-md-8 mx-auto">
+            <input type="text" id="result">
+        </div>
+    </div>
+        <div class="row" id="groupbtn">
+            <div class="col-md-12" >
+                <button id="button" onclick="getnum('(')">(</button>
+                <button id="button" onclick="getnum(')')">)</button>
+                <button id="button" class="bg-danger" onclick="clearResult()">C</button>
+                <button id="button" onclick="getnum('/')">/</button>
+            </div>
+            <div class="col-md-12">
+                <button id="button" onclick="getnum(7)">7</button>
+                <button id="button" onclick="getnum(8)">8</button>
+                <button id="button" onclick="getnum(9)">9</button>
+                <button id="button" onclick="getnum('*')">x</button>
+            </div>
+            <div class="col-md-12" >
+                <button id="button" onclick="getnum(4)">4</button>
+                <button id="button" onclick="getnum(5)">5</button>
+                <button id="button" onclick="getnum(6)">6</button>
+                <button id="button" onclick="getnum('-')">-</button>
+            </div>
+            <div class="col-md-12" >
+                <button id="button" onclick="getnum(1)">1</button>
+                <button id="button" onclick="getnum(2)">2</button>
+                <button id="button" onclick="getnum(3)">3</button>
+                <button id="button" onclick="getnum('+')">+</button>
+            </div>
+            <div class="col-md-12" >
+                <button id="button" onclick="getnum(0)">0</button>
+                <button id="button" onclick="getnum('.')">.</button>
+                <button id="button" class="bg-warning" onclick="getResult()">=</button>
+                <button id="button" onclick="getnum('%')">%</button>
+            </div>
+       
+    </div>
+        <hr class="line">
+            <div id="footer">
+                <h6>Made By Bazil Farooq</h6>
+            </div>
+</div>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="app.js"></script>
+</html>
