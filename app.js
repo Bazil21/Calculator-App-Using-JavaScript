@@ -19,3 +19,8 @@ function getResult()
 function getpow(){
     result.value = Math.pow(num)
 }
+
+ window.onerror = function(){
+      alert("PLEASE INPUT VALID EXPRESSION");
+      result.value = "";
+  }
